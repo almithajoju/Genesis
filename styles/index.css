@@ -76,3 +76,32 @@ section {
     line-height: 60px; /* 150% */
     margin-top: 32px;
 }
+
+span{
+    color: #4A4FF2;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+
+hr{
+    width: 30px;
+    height: 2px;
+    opacity: 0.5;
+    background: #111;
+   
+}
+
+.sub-dialogue{
+    color: #111;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.6;
+    margin-left: 950px;
+}
