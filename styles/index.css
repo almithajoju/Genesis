@@ -98,7 +98,7 @@ h3{
 .main-text{
     width: 173px;
     color: #4A4FF2;
-    font-family: Mulish;
+    font-family:"Mulish",sans-serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
@@ -111,7 +111,7 @@ h3{
     width: 635px;
     height: 191px;
     color: #111;
-    font-family: Mulish;
+    font-family:"Mulish",sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -139,7 +139,7 @@ h3{
 
 /* section 2 */
 
-.container_2 {
+.container-2 {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(32, 1fr);
@@ -201,3 +201,50 @@ h3{
     grid-row: 27/33;
     grid-column: 7/10;
 }
+
+
+/* section 3 */
+
+.container-3{
+    display:grid;
+    grid-template-columns:3fr 1fr 1fr;
+    grid-template-rows:1fr;
+    margin-top:91px;
+    margin-bottom: 100px;
+}
+
+.container-3 li{
+    list-style:none;
+    font-size:18px;
+    font-weight:400;
+    opacity:0.6;
+    padding:10px
+}
+
+.text1{
+    grid-column:1/2;
+    grid-row:1/2;
+    color: #111;
+    font-family:"Mulish",sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px; /* 135.714% */
+    padding-right: 94px;
+}
+
+.list1{
+    grid-column:2/3;
+}
+
+.list2{
+    grid-column: 3/4;
+}
+
+hr{
+    width: 1110px;
+    height: 2px;
+    background: #D8D8D8;
+}
+
+/* section 4 */

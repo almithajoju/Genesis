@@ -1,6 +1,6 @@
 /* section 2 */
 
-.container_2 {
+.container-2 {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(32, 1fr);
@@ -10,7 +10,7 @@
     margin-top: 144px;
 }
 
-.grid_element {
+.grid-element {
     overflow: hidden;
     position: relative;
 }
@@ -62,3 +62,4 @@
     grid-row: 27/33;
     grid-column: 7/10;
 }
+
