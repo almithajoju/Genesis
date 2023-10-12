@@ -1,7 +1,41 @@
 body{
-    margin-left: 127px;
-    margin-right: auto;
+    max-width:1110px;
+    width:100%;
+    margin:auto;
+    font-family:"Mulish",sans-serif
 }
+
+/* p{
+    opacity:0.6;
+    line-height:26px
+}
+
+h1{
+    font-size:40px;
+    font-style:normal;
+    font-weight:700;
+    line-height:60px
+}
+
+h2{
+    color:#111;
+    font-family:"Mulish",sans-serif;
+    font-size:28px;
+    font-style:normal;
+    font-weight:700;
+    line-height:38px
+}
+h3{
+    color:#4A4FF2;
+    font-family:"Mulish",sans-serif;
+    font-size:22px;
+    font-style:normal;
+    font-weight:700;
+    line-height:normal;
+    letter-spacing:-0.423px
+} */
+
+/* navbar */
 
 .navbar{
     width: 1109px;
@@ -37,7 +71,7 @@ body{
 .nav-links a{
     text-decoration: none;
     color: #111;
-    font-family: Mulish;
+    font-family:"Mulish",sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -49,11 +83,19 @@ body{
     color: #4A4FF2;
 }
 
-section {
-    display: inline-block;
+/* SECTION 1 */
+
+.container-1{
+    display:flex;
+    padding-top:100px;
+    margin-bottom: 144px;
+}
+.main-title{
+    max-width:635px;
+    width:100%;
 }
 
-.main-title{
+.main-text{
     width: 173px;
     color: #4A4FF2;
     font-family: Mulish;
@@ -77,31 +119,25 @@ section {
     margin-top: 32px;
 }
 
-span{
+.main-info a{
+    text-decoration: none;
+}
+
+.main-info a:hover{
     color: #4A4FF2;
-    font-family: Mulish;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px;
+}
+
+.progress{
+    align-self:flex-end;
+    font-size:18px;
+    font-style:italic;
+    font-weight:400;
+    line-height:normal;
+    opacity:0.6;
+    margin-left:190px
 }
 
 
-hr{
-    width: 30px;
-    height: 2px;
-    opacity: 0.5;
-    background: #111;
-   
-}
+/* section 2 */
 
-.sub-dialogue{
-    color: #111;
-    font-family: Mulish;
-    font-size: 18px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: normal;
-    opacity: 0.6;
-    margin-left: 950px;
-}
+
