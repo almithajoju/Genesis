@@ -248,3 +248,105 @@ hr{
 }
 
 /* section 4 */
+
+.container-4{
+    display:grid;
+    grid-template-columns:3fr 2fr 1fr 1fr;
+    grid-template-rows:2fr;
+    margin-top:100px;
+   gap: 100px;
+}
+
+.awards{
+    grid-row:1/3;
+    grid-column:1/2;
+    color: #111;
+    font-family:"Mulish",sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-right: 300px;
+}
+
+.site-day{
+    grid-row:1/3;
+    grid-column:2/3;
+    color: #111;
+    font-family:"Mulish",sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.ui-kit{
+    grid-row:1/3;
+    grid-column:3/4;
+    color: #111;
+    font-family:"Mulish",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ui-kit p{
+    width: 190px;
+    color: #111;
+    font-family:"Mulish",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    opacity: 0.6;
+}
+
+.year{
+    grid-row:1/3;
+    grid-column:4/5;
+    color: #111;
+    text-align: right;
+    font-family:"Mulish",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+ .best-nav{
+    grid-row:3/4;
+    grid-column:2/3;
+    color: #111;
+    font-family:"Mulish",sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+.ui-template{
+    grid-row:3/5;
+    grid-column:3/4;
+    font-family:"Mulish",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+.ui-template p {
+    opacity: 0.6;
+}
+
+.year1{
+    grid-row:3/5;
+    grid-column:4/5;
+}
+
+.line1{
+   margin-top:20px;
+}
+
